@@ -1,0 +1,35 @@
+# Large data files and models (too big for GitHub; host separately or retrain on deployment)
+*.pkl
+*.csv
+tfidf_features.pkl
+labels.pkl
+tfidf_vectorizer.pkl
+fake_news_model.pkl
+preprocessed_fake_news.csv
+cleaned_fake_news.csv
+combined_fake_news.csv
+
+# Python virtual environments, caches, and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyo
+.venv/
+env/
+.env
+
+# OS-generated files (Windows/Mac)
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE-specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Other common ignores
+node_modules/
+*.zip
+*.tar.gz
